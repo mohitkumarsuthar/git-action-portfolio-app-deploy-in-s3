@@ -1,9 +1,12 @@
-def my_funtion() {
+def my_function():
+    value = 2
+    return value
 
-    a = 2
-    b = 4
 
-    return c
-}
+def main():
+    result = my_function()
+    print(result)
 
-my_funtion()
+
+if __name__ == "__main__":
+    main()
